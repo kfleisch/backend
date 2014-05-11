@@ -1,28 +1,28 @@
 {
-  "name": "app-name",
+  "name": "Nestshow",
   "version": "0.0.1",
-  "author": "Picanteverde <picanteverde@gmail.com>",
-  "description": "a simple description",
+  "author": "Kathleen Fleischmann",
+  "description": "Nestshow API",
   "contributors": [
     {
-      "name": "Alejandro Hernandez",
-      "email": "picanteverde@gmail.com",
-      "web": "http://picanteverde.wordpress.com/"
+      "name": "Kathleen Fleischmann",
+      "email": "kathleen@fleisch.us"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/picanteverde/init.git"
+    "url": "https://github.com/kfleisch/backend.git"
   },
   "keywords": [
-    "init",
+    "nestshow",
     "node",
     "app"
   ],
   "dependencies": {
     "express": "~3.1.0",
+    "swagger-node-express": "git://github.com/kfleisch/swagger-node-express.git#master",
     "pg": "~0.14.1",
-    "mongodb": "~1.2.14"
+    "mongodb": "~1.3.23"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -39,6 +39,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.6"
+    "node": "0.10.18",
+    "npm": "1.3.8"
   }
 }
